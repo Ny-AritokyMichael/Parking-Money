@@ -1,0 +1,7 @@
+Installation de l'application : 
+ 1. installation des composer sur terminal du projet : - composer install
+ 2. MAJ des composer sur terminal du projet : - composer update
+ 3. Régler le nom de la base de données selon votre choix dans le fichier .env
+ 4. Migration de la base de données : - php artisan migrate
+ 5. Insérer les requêtes existants dans le fichier data.sql
+ 6. Démarer l'application : - php artisan serve
